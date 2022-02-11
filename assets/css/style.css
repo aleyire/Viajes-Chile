@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: "Roboto";
 }
 .bg-navbar {
   background: rgba(2, 0, 36, 0.452);
@@ -12,8 +13,9 @@ body {
   height: 200px;
   object-fit: cover;
 }
-p {
-  font-family: "Roboto", sans-serif;
+h2 h4 h5 {
+  font-family: "Roboto";
+  font-size: large;
 }
 
 .custom-icon:hover {
@@ -52,4 +54,7 @@ p {
 }
 .icon-enlace {
   text-align: right;
+}
+.modal-footer {
+  color: rgb(26, 199, 199) ;
 }
