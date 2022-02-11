@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+}
+.bg-navbar {
+  background: rgba(2, 0, 36, 0.452);
+}
+.carousel-item img {
+  height: 700px;
+  object-fit: cover;
+}
+#sec-quienes-somos .card > img {
+  height: 200px;
+  object-fit: cover;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-icon:hover {
+  color: aqua;
+} 
+.card{
+  background-color: rgb(26, 199, 199);
+}
+.hero-line {
+  color: rgb(26, 199, 199);
+  border: none;
+  border-top: 2px solid;
+}
+.custom-footer {
+  background-color:  rgb(26, 199, 199);
+}
+.fa-plane {
+  background-color:rgb(26, 199, 199);
+  padding-left: 48%;
+  padding-right: 48%;
+  
+}
+.fa-mountain {
+  background-color:rgb(26, 199, 199);
+  padding-left: 48%;
+  padding-right: 48%;
+}
+.fa-route {
+  background-color:rgb(26, 199, 199);
+  padding-left: 48%;
+  padding-right: 48%;
+}
+.card-img-top {
+  width: 300px;
+  height: 200px;
+}
+.icon-enlace {
+  text-align: right;
+}
