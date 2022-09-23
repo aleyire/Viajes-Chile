@@ -2,7 +2,7 @@
 
 Viajes Chile es una página web que busca insentivar el turismo en el país
 
-![] (https://github.com/aleyire/Viajes-Chile/blob/main/assets/img/emoji-flag-of-chile.gif)
+![](https://github.com/aleyire/Viajes-Chile/blob/main/assets/img/emoji-flag-of-chile.gif)
 
 ## Materia aplicada:
 
@@ -21,4 +21,4 @@ Viajes Chile es una página web que busca insentivar el turismo en el país
 
 ### Visualización
 
-![] (https://github.com/aleyire/Viajes-Chile/blob/main/assets/img/preview.png)
+![](https://github.com/aleyire/Viajes-Chile/blob/main/assets/img/preview.png)
