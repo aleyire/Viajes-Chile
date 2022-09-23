@@ -1,27 +1,30 @@
+
+html {
+  scroll-behavior: auto !important;
+}
+
 body {
   background-color: black;
   font-family: "Roboto";
 }
+
+/* Navbar */
 .bg-navbar {
   background: rgba(2, 0, 36, 0.452);
 }
+
+/* Carousel */
 .carousel-item img {
   height: 700px;
   object-fit: cover;
 }
-#sec-quienes-somos .card > img {
+
+/* Cards */
+#quienes-somos .card > img {
   height: 200px;
   object-fit: cover;
 }
-h2 h4 h5 {
-  font-family: "Roboto";
-  font-size: large;
-}
-
-.custom-icon:hover {
-  color: aqua;
-} 
-.card{
+.card {
   background-color: rgb(26, 199, 199);
 }
 .hero-line {
@@ -29,14 +32,10 @@ h2 h4 h5 {
   border: none;
   border-top: 2px solid;
 }
-.custom-footer {
-  background-color:  rgb(26, 199, 199);
-}
 .fa-plane {
   background-color:rgb(26, 199, 199);
   padding-left: 48%;
   padding-right: 48%;
-  
 }
 .fa-mountain {
   background-color:rgb(26, 199, 199);
@@ -49,12 +48,26 @@ h2 h4 h5 {
   padding-right: 48%;
 }
 .card-img-top {
-  width: 300px;
   height: 200px;
-}
-.icon-enlace {
-  text-align: right;
 }
 .btn {
   font-size: x-large;
+}
+
+/* Footer */
+.custom-footer {
+  background-color:  rgb(26, 199, 199);
+}
+h3 {
+  font-size: xx-large;
+}
+a {
+  text-decoration: none;
+}
+
+/* Modals */
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  text-align: center;
 }

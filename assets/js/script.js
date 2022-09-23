@@ -1,25 +1,17 @@
+
+// Scroll
 $(document).ready(function () {
-
-    $("a").on('click', function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function () {
-                window.location.hash = hash;
-            });
-        }
-    });
-    // Activar Carousel
-  $("#carouselExampleControls").carousel();
-
-  $('.carousel').carousel({
-    interval: 8000
+  $("a").on("click", function () {
+    var desplazamiento = this.hash
+    $("html, body").animate(
+      {
+        scrollTop: $(desplazamiento).offset().top - 45,
+      },
+      1000
+    )
   })
+})
 
-  // habilitar controles de carousel
-  $(".left").click(function () {
-    $("#carouselExampleControls").carousel("prev");
-  });
-});
+// Tooltips
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
